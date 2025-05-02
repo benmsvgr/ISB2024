@@ -16,8 +16,8 @@ const url = process.env.API_URL_PNT; // Use environment variable for URL
 
 // Define the spreadsheet ID and range
 const spreadsheetId = process.env.SPREADSHEET_ID; // Use environment variable for Spreadsheet ID
-const clearRange = 'Pen NonTender!A:ZZ'; // Range to clear
-const updateRange = 'Pen Nontender!A1'; // Range to update
+const clearRange = 'KD-KontrakTender!A:ZZ'; // Range to clear
+const updateRange = 'KD-KontrakTender!A1'; // Range to update
 
 async function fetchData() {
     try {
