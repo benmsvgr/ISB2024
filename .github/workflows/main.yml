@@ -104,17 +104,3 @@ jobs:
         GOOGLE_SHEET_KEY_JSON: ${{ secrets.GOOGLE_SHEET_KEY_JSON }}
         API_URL_TD: ${{ secrets.API_URL_TD }}
         SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
-
-    - name: Run P_PenyediaNonTender Node.js script
-      run: node P_PenyediaNonTender.js
-      env:
-        GOOGLE_SHEET_KEY_JSON: ${{ secrets.GOOGLE_SHEET_KEY_JSON }}
-        API_URL_PPTTL: ${{ secrets.API_URL_PPTTL }}
-        SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
-
-    - name: Run P_PenyediaTender Node.js script
-      run: node P_PenyediaTender.js
-      env:
-        GOOGLE_SHEET_KEY_JSON: ${{ secrets.GOOGLE_SHEET_KEY_JSON }}
-        API_URL_PPNTL: ${{ secrets.API_URL_PPNTL }}
-        SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
